@@ -10,11 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     ../src/Core/House/house.cpp \
+    ../src/Core/Ingredients/ingredients.cpp \
     ../src/mainwindow.cpp \
     ../src/main.cpp
 
 HEADERS += \
     ../src/Core/House/house.h \
+    ../src/Core/Ingredients/ingredients.h \
     ../src/mainwindow.h \
 
 FORMS += \

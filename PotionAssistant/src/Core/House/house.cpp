@@ -13,8 +13,8 @@ House::House(QString name, QString color, QWidget* parent):
     _color(color),
     _parent(parent)
 {
-    QFile ingredientFile("../prompt/"+_name+".txt");
-    if (!ingredientFile.open(QIODevice::ReadOnly | QIODevice::Text))
+    QFile ingredientFile("../../prompt/"+_name+".txt");
+    if(ingredientFile.open(QIODevice::ReadOnly | QIODevice::Text))
     {
         /*COMING SOON*/
     } else {
